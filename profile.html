@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/icons8-haltere-96.png">
+    <title>Calcular IMC</title>
+</head>
+
+<body>
+    <header>
+        <!--AQUI TEMOS O CABEÇALHO DA PÁGINA-->
+        <div class="header">
+            <h1><a href="index.html">CH FITNESS ACADEMIA</a></h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="mailto:chfitacad@gmail.com?Subject=Título%20da%20mensagem">E-mail</a></li>
+                <li><a href="https://wa.me/qr/3LATMEOQIRVUK1">WhatsApp</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="container">
+        <form>
+            Calcular IMC <br> <br>
+            <div class="input-group">
+
+                <section>
+                    <label for="peso">Peso</label>
+                    <div id="input-container">
+                        <input type="number" id="peso" placeholder="67,0">
+                        <p>Kg</p>
+                    </div>
+                </section>
+
+                <section>
+                    <label for="Altura">Altura</label>
+                    <div id="input-container">
+                        <input type="number" name="" id="altura" placeholder="1,67">
+                        <p>m</p>
+                    </div>
+                </section>
+
+                <input type="button" id="button" value="Calcular">
+
+            </div>
+        </form>
+        <div id="resultado">
+
+        </div>
+
+    </div>
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

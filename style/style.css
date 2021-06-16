@@ -1,0 +1,253 @@
+        body {
+            text-align: center;
+            margin: 0;
+            font-family: 'Hammersmith One', sans-serif;
+        }
+        
+        a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+        
+        .sobre-atividades h2 {
+            background-color: red;
+            color: white;
+        }
+        
+        .cuidados h2 {
+            background-color: red;
+            color: white;
+        }
+        
+        h2 span {
+            color: #ffffff;
+            font-size: 2.0em;
+        }
+        
+        h1 {
+            font-size: 4.0em;
+        }
+        
+        li {
+            list-style-type: none;
+        }
+        /**AQUI É TODO O ESTILO DA PÁGINA HTML **/
+        
+        header {
+            font-family: 'Hammersmith One', sans-serif;
+            background-color: red;
+            color: white;
+            padding: 15px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+        }
+        /**PARA O LINK QUE ESTÁ NO CABEÇALHO**/
+        
+        .header h1 a:hover {
+            color: #000000;
+        }
+        
+        header nav ul {
+            width: 300px;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        header nav ul li a {
+            color: white;
+        }
+        
+        header nav ul li a:hover {
+            color: black;
+        }
+        
+        main {
+            max-width: 1000px;
+            margin: 104px auto 0px auto;
+            padding: 30px;
+        }
+        
+        .sobre-academia {
+            display: flex;
+            margin: 10px auto;
+        }
+        
+        .sobre-academia h2 {
+            background-color: red;
+        }
+        
+        .sobre-academia p {
+            background-color: #80787862;
+        }
+        /**REFERENTE A CLASSE**/
+        
+        .container {
+            display: flex;
+            letter-spacing: 1.5px;
+            line-height: 1.5;
+        }
+        
+        .text-container {
+            font-family: 'Hammersmith One', sans-serif;
+            letter-spacing: 1.5px;
+            line-height: 1.5;
+            display: flex;
+            align-items: center;
+        }
+        /**SOBRE A PARTE QUE CONTEM OS BLOCOS NA PARTE DE ATIVIDADES DA ACADEMIA**/
+        
+        .sobre-atividades {
+            background-color: #80787862;
+        }
+        
+        .sobre-atividades a {
+            color: #000000;
+        }
+        
+        .sobre-atividades a:hover {
+            color: #fc0404;
+        }
+        
+        .lista-atividades {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        .lista-atividades li {
+            box-sizing: border-box;
+            width: 48%;
+            height: 250px;
+            margin: 2px;
+        }
+        /**SOBRE A PARTE QUE CONTEM OS BLOCOS NA PARTE DE CUIDADOS**/
+        
+        .lista-cuidados {
+            display: flex;
+        }
+        /**PARA A PÁGINA INICIAL REFERENTE A API**/
+        
+        .profile-api {
+            border: 2px dotted rgb(0, 0, 0);
+            background-color: red;
+            border-radius: 30px;
+            margin: 10px auto;
+        }
+        
+        .profile-api h2 a {
+            color: #ffffff;
+        }
+        /**PARA O LINK QUE ESTÁ NA PÁGINA INICIAL REFERENTE A API**/
+        
+        .profile-api h2 a:hover {
+            color: #000000;
+        }
+        /** AQUI É O ESTILO DA PAGINA QUE TEM A FUNCIONALIDADE "JS" **/
+        
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: 'Hammersmith One', sans-serif;
+        }
+        
+        div#container {
+            padding: 2% 0;
+            width: 270px;
+            background-color: rgb(231, 230, 230);
+            border-radius: 10px;
+            position: relative;
+            top: 50vh;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            padding: 30px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.342);
+        }
+        
+        input {
+            width: 150px;
+            height: 30px;
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            outline-color: #000000;
+        }
+        
+        input#button {
+            padding: 0;
+            width: 100%;
+            margin-top: 13%;
+            background-color: #d00000;
+            color: white;
+            cursor: pointer;
+            transition: background .4s;
+        }
+        
+        input#button:hover {
+            background-color: #ff0000;
+            position: relative;
+        }
+        
+        div#input-container {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+        
+        div.input-group {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        
+        section {
+            display: flex;
+            gap: 10px;
+            flex-direction: column;
+        }
+        
+        .resultado {
+            margin-top: 40px;
+        }
+        
+        #resultado-container {
+            border: 2px dotted rgb(19, 214, 19);
+            background-color: rgba(19, 214, 19, 0.205);
+            border-radius: 5px;
+            margin-top: 10px;
+            animation: resultado-animacao 1s;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        
+        @keyframes resultado-animacao {
+            from {
+                opacity: 0
+            }
+            top {
+                opacity: 1
+            }
+        }
+        /** AQUI ESTÁ O ESTILO DO RODAPE**/
+        
+        footer {
+            text-align: center;
+            background-color: #3A3A3A;
+            overflow: auto;
+            color: white;
+            padding: 50px;
+        }
+        
+        footer p {
+            margin: 0;
+            letter-spacing: 1.5px;
+            line-height: 1.5;
+        }
